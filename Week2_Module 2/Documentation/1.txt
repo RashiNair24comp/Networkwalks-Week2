@@ -1,0 +1,121 @@
+# WEEK 2 – PROJECT MODULE 2
+## Footprinting & Reconnaissance with GHDB
+
+### Task 1 – Understanding Google Hacking Database (GHDB)
+
+**Tool Used:** Exploit Database – Google Hacking Database (GHDB)
+
+**Website:** https://www.exploit-db.com/google-hacking-database
+
+**Activity 1: Searching for robots.txt**
+
+- Search term: `robots.txt`
+- Matching entries displayed: 17
+- Category: Files Containing Juicy Info
+
+**Objective:**
+
+To understand how Google Dorks can identify publicly indexed website files and directories.
+
+**Observation:**
+
+GHDB returned 17 matching entries for the search term `robots.txt`. The results demonstrate how specialised search queries can help identify publicly indexed resources.
+
+**Safety Note:**
+
+The exposed security camera feed activity was not performed. No private camera feeds or credentials were accessed.
+
+**Screenshot:** Screenshot 1 – GHDB robots.txt search results.
+
+---
+
+### Task 2 – Finding Mathematics E-books in PDF Format
+
+**Website Used:** OpenStax
+
+**Google Search Query:**
+`site:openstax.org/details/books mathematics`
+
+The following mathematics textbooks were identified on the official OpenStax website. Their textbook pages displayed a PDF download option.
+
+**Entry 1:**
+- Book: Algebra and Trigonometry 2e
+- Website: OpenStax
+- Link: https://openstax.org/details/books/algebra-and-trigonometry-2e
+- PDF Available: Yes
+- Username/Password: Not required
+
+**Entry 2:**
+- Book: Contemporary Mathematics
+- Website: OpenStax
+- Link: https://openstax.org/details/books/contemporary-mathematics
+- PDF Available: Yes
+- Username/Password: Not required
+
+**Entry 3:**
+- Book: Calculus Volume 1
+- Website: OpenStax
+- Link: https://openstax.org/details/books/calculus-volume-1
+- PDF Available: Yes
+- Username/Password: Not required
+
+**Entry 4:**
+- Book: College Algebra 2e
+- Website: OpenStax
+- Link: https://openstax.org/details/books/college-algebra-2e
+- PDF Available: Yes
+- Username/Password: Not required
+
+**Entry 5:**
+- Book: Calculus Volume 3
+- Website: OpenStax
+- Link: https://openstax.org/details/books/calculus-volume-3
+- PDF Available: Yes
+- Username/Password: Not required
+
+**Entry 6:**
+- Book: Calculus Volume 2
+- Website: OpenStax
+- Link: https://openstax.org/details/books/calculus-volume-2
+- PDF Available: Yes
+- Username/Password: Not required
+
+**Entry 7:**
+- Book: Precalculus 2e
+- Website: OpenStax
+- Link: https://openstax.org/details/books/precalculus-2e
+- PDF Available: Yes
+- Username/Password: Not required
+
+**Entry 8:**
+- Book: Elementary Algebra 2e
+- Website: OpenStax
+- Link: https://openstax.org/details/books/elementary-algebra-2e
+- PDF Available: Yes
+- Username/Password: Not required
+
+**Entry 9:**
+- Book: Prealgebra 2e
+- Website: OpenStax
+- Link: https://openstax.org/details/books/prealgebra-2e
+- PDF Available: Yes
+- Username/Password: Not required
+
+**Entry 10:**
+- Book: Introductory Statistics 2e
+- Website: OpenStax
+- Link: https://openstax.org/details/books/introductory-statistics-2e
+- PDF
+
+**Observation:**
+
+Ten mathematics textbooks were identified through the OpenStax website. Their pages provided PDF download options, and no username or password was required to access the listed resources.
+
+**Screenshots:**
+- Screenshot 2 – Google search results.
+- Screenshot 3 – OpenStax mathematics catalogue.
+- Screenshots 4 and 5 – Textbook pages showing PDF availability.
+
+**Methodology Note:**
+
+The original task focused on finding mathematics e-books through publicly indexed directory listings. For this exercise, official OpenStax textbook pages were used as a safer alternative. The search query was used to identify the books, and their pages were checked for PDF availability. This activity demonstrates the identification of publicly accessible educational resources without accessing arbitrary file directories.

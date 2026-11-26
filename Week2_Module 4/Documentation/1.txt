@@ -1,0 +1,29 @@
+**Week 2 – Project Module 4: Footprinting & Reconnaissance with theHarvester**
+
+**Tool:** theHarvester  
+**Version:** 4.11.1
+
+**Initial Verification:**
+- Opened theHarvester successfully in Kali Linux.
+- Ran `theHarvester -h` to view help and usage options.
+- Confirmed the `-d` option specifies the domain.
+- Confirmed the `-b` option specifies the data source.
+- Checked the installed version using `theHarvester --version`.
+- Version displayed: 4.11.1.
+
+**Note:** The original email-enumeration activity was stopped to avoid collecting personal email addresses. The exercise will focus on privacy-safe, public organisation-level information.
+
+**Task 1 – Baidu Source**
+Target domain specified in the module: microsoft.com
+Original search was stopped before collecting or reviewing results.
+Personal email enumeration was excluded for privacy reasons.
+
+**Task 2 – All Sources**
+The original all-sources search was not performed because it could collect personal email addresses.
+The activity was excluded for privacy reasons.
+
+**Conclusion:**
+TheHarvester was successfully opened and verified (Version 4.11.1).
+The help options and command syntax were reviewed.
+The original email-enumeration tasks were not performed to protect personal privacy.
+The activity and its limitations were documented.

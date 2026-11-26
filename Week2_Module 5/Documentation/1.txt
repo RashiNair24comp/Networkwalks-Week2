@@ -1,0 +1,29 @@
+# Week 2 – Project Module 5: Network Scanning with Zenmap
+
+**Tool:** Zenmap (Nmap GUI)
+
+**Environment:** Windows 11 and Kali Linux VirtualBox VM
+
+## Objective
+To understand network scanning, identify active hosts, inspect discovered services, and view network topology using Zenmap.
+
+## Activities Performed
+
+1. Installed Nmap and opened Zenmap.
+2. Checked local network configuration using `ipconfig`.
+3. Configured a host-only network in VirtualBox for an isolated lab environment.
+4. Identified the Kali Linux VM's host-only network interface.
+5. Selected the Intense Scan profile in Zenmap.
+6. Scanned the authorised host-only lab subnet.
+7. Identified **3 active hosts**.
+8. Reviewed the discovered hosts and services.
+9. Viewed the network topology map.
+10. Saved the scan results in XML format.
+11. Saved the network topology image.
+
+## Files Saved
+- `W2_PM5_Zenmap_Scan.xml` – Scan results
+- `W2_PM5_Topology.png` – Network topology
+
+## Conclusion
+Successfully installed and used Zenmap to perform a network scan within an isolated VirtualBox host-only lab environment. Identified active hosts, reviewed discovered services, explored the network topology, and saved the scan results for documentation.

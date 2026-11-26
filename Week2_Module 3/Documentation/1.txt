@@ -1,0 +1,113 @@
+WEEK 2 – PROJECT MODULE 3
+Task 1: Maltego – Domain Footprinting
+
+Target Domain: networkwalks.com
+
+Tool Used: Maltego
+
+Transform Executed: [Utilities] To DNS Name (interesting)
+
+Observation:
+- The transform started and completed.
+- The SecurityTrails transform returned an error: "Failed to execute transformDomain".
+- No new DNS entities were visibly added to the graph.
+
+Conclusion:
+The DNS transform was attempted, but the SecurityTrails lookup encountered an error. No DNS results could be confirmed from this attempt.
+
+Screenshot Reference: 2
+
+Task 2: Email Footprinting
+
+Target Domain: networkwalks.com
+
+Source: Official Networkwalks Contact Us page
+
+Public Contact Email: info@networkwalks.com
+
+Observation:
+- The official website publicly displays a general contact email.
+- This is a role-based business contact address.
+- No personal email addresses were collected.
+
+Task 3: Subdomain Footprinting
+
+Tool Used: Maltego
+
+Observation:
+- Searched the available transforms for "subdomain".
+- No matching transforms were available in the current Maltego setup.
+- No subdomain lookup was performed.
+
+Conclusion:
+The task could not be completed because the required transform was unavailable.
+
+Task 4: Technology Footprinting
+
+Tool Used: WhatWeb
+
+Observation:
+- Web Server: Apache
+- CMS: WordPress
+- JavaScript Library: jQuery
+- Framework: Bootstrap
+- Additional technologies: Google Tag Manager
+
+Conclusion:
+Publicly visible website technologies were identified using WhatWeb during Week 2 Module 1.
+
+Task 5: IP Address Analysis
+
+Tool Used: Google Public DNS
+
+Target Domain: networkwalks.com
+
+IPv4 Address: 192.232.216.135
+
+Observation:
+- DNS query returned NOERROR.
+- An A record was found for the domain.
+- TTL: 14400 seconds.
+
+Conclusion:
+The domain successfully resolved to the IPv4 address listed above.
+
+Task 6: People Identification
+
+Observation:
+- Personal information about individuals was not collected.
+- This task was skipped to respect privacy.
+
+Conclusion:
+The exercise was limited to publicly available organization-level information.
+
+Task 7: Related Organizations
+
+Source: Official Networkwalks website
+
+Observation:
+- The Services section listed offerings such as Corporate Training and Custom Course Development.
+- No partner organizations or affiliated companies were identified on this page.
+
+Conclusion:
+No related organizations could be confirmed from the reviewed page.
+
+Task 8: Relationship Mapping
+- Added the domain, IPv4 address, and public contact email as entities.
+- Created links showing the domain's relationship to the IP address and contact email.
+- Saved and exported the graph.
+
+Task 9: Graph Export
+- Exported the Maltego graph as a PNG image.
+- File: 4_Task8_Graph.png
+- Location: /home/kali
+
+Task 10: Analysis and Conclusion
+- Public DNS information identified an IPv4 address for the target domain.
+- The official website provided a general contact email.
+- WhatWeb identified publicly visible website technologies.
+- Some Maltego transforms were unavailable or returned errors.
+- Personal information was excluded to respect privacy.
+
+Overall Conclusion:
+The exercise demonstrated how passive OSINT tools can help map publicly available information about an organization's digital footprint.
